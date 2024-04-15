@@ -1,0 +1,67 @@
+/* Estilo para a área de luta */
+.fightarea {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Espaçamento entre os elementos */
+    padding: 20px; /* Padding ao redor da área de luta */
+}
+
+#char, #monster {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.lifebar {
+    height: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.lifebar .bar {
+    height: inherit;
+    background-color: #f204e6; /* Roxo escuro */
+    border-radius: 5px;
+}
+
+.log {
+    font-size: 1.5rem;
+    color: #fff;
+    border: 1px dotted #999;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+/* Estilo para o tema */
+.theme {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.theme h1 {
+    font-size: 50px;
+    color: #333;
+}
+
+/* Botão de ataque */
+.attackButton {
+    margin: 20px;
+    padding: 10px 20px; 
+    font-size: 18px; 
+    background-color: #204; /* Roxo mais escuro */
+    color: #fff; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+}
+
+.attackButton:hover {
+    background-color: #111; /* Roxo mais escuro no hover */
+}
+
+/* Estilo para o log */
+.log {
+    border: 1px dotted #999;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #204; /* Roxo mais escuro */
+}
